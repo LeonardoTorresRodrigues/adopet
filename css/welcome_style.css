@@ -11,11 +11,12 @@
 
 body {
   font-family: 'Poppins', sans-serif;
-  height: 100vh;
-  width: 100vw;
+  min-height: 100vh;
+  min-width: 100vw;
   background-color: var(--azul-primaria);
-  background-image: url("./assets/Forma\ 1.svg");
+  background-image: url("./assets/Forma\ 1.svg"), url("./assets/Forma\ 2.svg"), url("./assets/Ilustração\ 1.svg");
   background-repeat: no-repeat;
+  background-position: top left, center right, bottom 4rem center;
 }
 
 header {
@@ -28,29 +29,27 @@ header {
 }
 
 .icons {
-  padding: 0 2rem;
+  padding: 0 2.2rem;
   width: 5%;
 }
 
 main {
-  height: 80vh;
+  height: 75vh;
 }
 
-.--welcome-page {
+.welcome__page {
   display: flex;
   flex-direction: column;
   align-items: center;
   height: 100%;
-  background-image: url("./assets/Forma\ 2.svg");
-  background-repeat: no-repeat;
-  background-position: right;
+  width: 100vw;
 }
 
-.--title-logo {
+.title__logo {
   margin: 1rem 0 2rem 0;
 }
 
-.--title-secundary {
+.title__secondary {
   font-family: 'IBM Plex Sans', sans-serif;
   margin: 1rem 0 2rem 0;
   font-weight: 500;
@@ -58,24 +57,26 @@ main {
   color: #FFFFFF;
 }
 
-.--welcome-text {
+.welcome__text {
   width: 70vw;
   text-align: center;
   padding: .5rem;
-  margin-bottom: 2rem;
+  margin-bottom: .5rem;
   color: #FFFFFF;
 }
 
-.--main-button {
-  width: 180px;
+.main__button {
+  width: 11.25rem;
   height: 5%;
+  text-align: center;
   background-color: var(--coral-terciaria);
-  border-radius: .25rem;
-  border: none;
+  border-radius: 6px;
   font-weight: 600;
   color: #FFFFFF;
   margin: 1rem;
+  padding-top: 1rem;
   box-shadow: 3px 3px 10px #000000;
+  text-decoration: none;
 }
 
 footer {
