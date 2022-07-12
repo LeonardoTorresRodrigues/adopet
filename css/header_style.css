@@ -1,0 +1,13 @@
+header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100vw;
+  height: 10vh;
+  margin-bottom: 3rem;
+}
+
+.icons {
+  padding: 0 2.2rem;
+  width: 5%;
+}
