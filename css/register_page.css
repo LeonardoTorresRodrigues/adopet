@@ -1,0 +1,33 @@
+body {
+  font-family: var(--fonte-principal);
+  min-height: 100vh;
+  min-width: 100vw;
+  background-image: url("./assets/Forma\ 1.svg");
+  background-repeat: no-repeat;
+  background-position: top left, center right, bottom 4rem center;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  text-align: center;
+}
+
+.register__content {
+  flex-grow: 1;
+}
+
+.register__text {
+  color: var(--azul);
+  margin: 1rem 1.5rem;
+}
+
+.form {
+  flex-grow: 2;
+  margin: 1rem 1.5rem;
+}
+
+.form__label {
+  color: var(--cinza);
+  margin: 1rem 4rem;
+}
