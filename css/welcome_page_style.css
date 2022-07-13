@@ -45,6 +45,7 @@ main {
   height: 5%;
   text-align: center;
   background-color: var(--coral);
+  border: none;
   border-radius: 6px;
   font-weight: 600;
   color: var(--branco);
