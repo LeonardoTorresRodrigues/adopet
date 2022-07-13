@@ -35,12 +35,12 @@
       <input class="form__input" type="text" name="nome" id="nome" placeholder="Digite seu nome completo" required>
 
       <label class="form__label" for="senha">Senha</label>
-      <input class="form__input" type="password" name="senha" id="senha" placeholder="Crie uma senha" required>
+      <input class="form__input" type="password" name="senha" id="senha" autocomplete="new-password" minlength="6" maxlength="18" size="18" placeholder="Crie uma senha" required>
 
       <label class="form__label" for="conf_senha">Confirma sua senha</label>
-      <input class="form__input" type="text" name="conf_senha" id="conf_senha" placeholder="Repita a senha criada acima" required>
+      <input class="form__input" type="password" name="conf_senha" id="conf_senha" autocomplete="current-password" placeholder="Repita a senha criada acima" required>
 
-      <input type="submit" value="Cadastrar">
+      <input class="button" type="submit" value="Cadastrar">
     </form>
   </main>
   <footer>
