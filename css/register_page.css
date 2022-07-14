@@ -2,9 +2,9 @@ body {
   font-family: var(--fonte-principal);
   min-height: 100vh;
   min-width: 100vw;
-  background-image: url("./assets/Forma\ 1.svg"), url("./assets/Forma\ 2_left.svg");
+  background-image: url("./assets/Patas.svg"), url("./assets/Forma\ 1.svg"), url("./assets/Forma\ 2_left.svg");
   background-repeat: no-repeat;
-  background-position: top left, left bottom 8rem;
+  background-position: top right, top left, left bottom 8rem;
   display: flex;
   flex-direction: column;
 }
@@ -53,6 +53,6 @@ main {
   border-radius: 6px;
   font-weight: 600;
   color: var(--branco);
-  margin: 1rem;
+  margin: 2rem 1rem;
   text-decoration: none;
 }
