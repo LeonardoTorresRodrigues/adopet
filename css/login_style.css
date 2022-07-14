@@ -1,0 +1,10 @@
+.login__text {
+  color: var(--azul);
+  margin: 3rem 0 1rem;
+}
+
+.password {
+  font-size: 12px;
+  color: var(--coral);
+  margin: 1rem 0;
+}
