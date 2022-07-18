@@ -2,9 +2,9 @@ body {
   font-family: var(--fonte-principal);
   min-height: 100vh;
   min-width: 100vw;
-  background-image: url("./assets/Usuário.svg"), url("./assets/Forma\ 1.svg"), url("./assets/Forma\ 2_left.svg");
+  background-image: url("./assets/Usuário.svg"), url("./assets/Forma\ 1.svg");
   background-repeat: no-repeat;
-  background-position: top 1.5rem right 1rem, top left, left bottom 8rem;
+  background-position: top 1.5rem right 1rem, top left;
   display: flex;
   flex-direction: column;
 }
@@ -17,4 +17,59 @@ main {
 .home__text {
   color: var(--azul);
   margin: 1.5rem 5rem 1rem;
+}
+
+.card__container {
+  display: grid;
+  height: 20vh;
+  margin: 1rem 0;
+
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: 
+    "img title"
+    "img ul"
+    "img div"
+  ;
+  row-gap: 1.5rem;
+
+  background-color: var(--cinza-claro);
+  text-align: start;
+}
+
+.card__image {
+  width: 90%;
+  grid-row: span 4;
+  grid-area: img;
+}
+
+.card__title {
+  color: var(--azul);
+  font-weight: 600;
+  margin-top: 1rem;
+  grid-area: title;
+}
+
+.pet__info {
+  grid-area: ul;
+  font-size: 14px;
+}
+
+.pet__location {
+  grid-area: div;
+}
+
+.pet__text {
+  font-size: 12px;
+}
+
+.button__menssage {
+  font-size: 10px;
+  background-color: var(--cinza-claro);
+
+  border: none;
+  padding: 0;
+}
+
+.button__menssage img {
+  justify-self: center;
 }
