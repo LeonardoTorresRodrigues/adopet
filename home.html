@@ -11,6 +11,9 @@
   <link rel="stylesheet" href="./css/home_style.css">
   <link rel="stylesheet" href="./css/form_style.css">
   <link rel="stylesheet" href="./css/footer_style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
   <title>Adopet</title>
 </head>
 
@@ -25,21 +28,24 @@
       <p class="home__text">Olá! Veja os amigos disponíveis para adoção!</p>
     </div>
 
-    <article class="card__container">
-      <img src="./css/assets/Imagem Dunga.svg" alt="Cachorro" class="card__image">
-      <h3 class="card__title">Dunga</h3>
-      <ul class="pet__info">
-        <li>2 anos</li>
-        <li>Porte pequeno</li>
-        <li>Calmo e educado</li>
-      </ul>
-      <div class="pet__location">
-        <p class="pet__text">Rio de Janeiro (RJ)</p>
-        <button class="button__menssage"><img src="./css/assets/ícone mensagem.svg" alt="Ícone de mensagem">
-          Falar com responsável
-        </button>
-      </div>
-    </article>
+    <section class="cards">
+      <article class="card__container">
+        <img src="./css/assets/Imagem Dunga.svg" alt="Cachorro" class="card__image">
+        <div class="pet">
+          <h3 class="card__title">Dunga</h3>
+          <ul class="pet__info">
+            <li>2 anos</li>
+            <li>Porte pequeno</li>
+            <li>Calmo e educado</li>
+          </ul>
+          <p class="pet__local">Rio de Janeiro (RJ)</p>
+          <div class="pet__menssage">
+            <span class="pet__icon"></span>
+            <a class="pet__link" href="#">Falar com responsável</a>
+        </div>
+        </div>
+      </article>
+    </section>
   </main>
   <footer>
     <p>2022 - Desenvolvido por Leonardo Torres Rodrigues</p>
