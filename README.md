@@ -3,4 +3,7 @@ Nada melhor do que ser desafiado. Essa é a proposta do Alura Challenge, desafia
 
 Nessa edição estamos desenvolvendo o Adopet, um site de adoção de pets.
 
-Estamos utilizando a metodologia mobile-first.
+## Pontos principais de estudo
+* Mobile-first
+* Flexbox
+* Código legível
