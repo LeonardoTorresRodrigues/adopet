@@ -2,7 +2,7 @@ body {
   font-family: var(--fonte-principal);
   min-height: 100vh;
   min-width: 100vw;
-  background-image: url("./assets/Usuário.svg"), url("./assets/Forma\ 1.svg");
+  background-image: url("../svg/Usuário.svg"), url("../svg/Forma\ 1.svg");
   background-repeat: no-repeat;
   background-position: top 1.5rem right 1rem, top left;
   display: flex;
