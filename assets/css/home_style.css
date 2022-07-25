@@ -60,7 +60,7 @@ main {
 }
 
 .pet__icon {
-  background-image: url("./assets/ícone\ mensagem.svg");
+  background-image: url("../svg/ícone\ mensagem.svg");
   background-repeat: no-repeat;
   background-position: left center;
   height: 18px;

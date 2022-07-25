@@ -3,7 +3,7 @@ body {
   min-height: 100vh;
   min-width: 100vw;
   background-color: var(--azul);
-  background-image: url("./assets/Forma\ 1.svg"), url("./assets/Forma\ 2.svg"), url("./assets/Ilustração\ 1.svg");
+  background-image: url("../svg/Forma\ 1.svg"), url("../svg/Forma\ 2.svg"), url("../svg/Ilustração\ 1.svg");
   background-repeat: no-repeat;
   background-position: top left, center right, bottom 4rem center;
 }

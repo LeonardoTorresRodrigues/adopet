@@ -2,7 +2,7 @@ body {
   font-family: var(--fonte-principal);
   min-height: 100vh;
   min-width: 100vw;
-  background-image: url("./assets/Patas.svg"), url("./assets/Forma\ 1.svg"), url("./assets/Forma\ 2_left.svg");
+  background-image: url("../svg/Patas.svg"), url("../svg/Forma\ 1.svg"), url("../svg/Forma\ 2_left.svg");
   background-repeat: no-repeat;
   background-position: top right, top left, left bottom 8rem;
   display: flex;
