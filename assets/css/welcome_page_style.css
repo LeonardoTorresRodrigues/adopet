@@ -54,3 +54,11 @@ main {
   box-shadow: 3px 3px 10px #000000;
   text-decoration: none;
 }
+
+@media screen and (min-width: 768px) {
+  body {
+    background-image: url("../svg/forma_1_768px.svg"), url("../svg/forma_2_768px.svg"), url("../svg/ilustração_768px.svg");
+    background-repeat: no-repeat;
+    background-position: top left, center right, bottom 4rem center;
+  }
+}
