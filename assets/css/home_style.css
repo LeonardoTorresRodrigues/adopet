@@ -81,3 +81,9 @@ main {
     margin: 0 1.5rem;
   }
 }
+
+@media screen and (min-width: 1440px) {
+  .cards {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
