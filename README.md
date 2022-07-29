@@ -8,3 +8,6 @@ Nessa edição estamos desenvolvendo o Adopet, um site de adoção de pets.
 * Flexbox
 * Grid
 * Código legível
+## Tecnologias
+* HTML5
+* CSS3
