@@ -6,4 +6,5 @@ Nessa edição estamos desenvolvendo o Adopet, um site de adoção de pets.
 ## Pontos principais de estudo
 * Mobile-first
 * Flexbox
+* Grid
 * Código legível
