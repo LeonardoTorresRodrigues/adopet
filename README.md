@@ -1,7 +1,7 @@
 # Adopet
-Nada melhor do que ser desafiado. Essa é a proposta do Alura Challenge, desafiar alunos com situações reais na vida do dev. 
 
-Nessa edição estamos desenvolvendo o Adopet, um site de adoção de pets.
+## Sobre o projeto
+Nada melhor do que ser desafiado. Essa é a proposta do Alura Challenge. Nessa 4ª edição do #AluraChallengeFrontEnd, fomos desafiados a criar um site de adoção de pets do zero, partindo do mobile para o desktop.
 
 ## Pontos principais de estudo
 * Mobile-first
