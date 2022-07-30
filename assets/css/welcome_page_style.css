@@ -61,4 +61,8 @@ main {
     background-repeat: no-repeat;
     background-position: top left, center right, bottom 4rem center;
   }
+
+  main {
+    height: 80vh;
+  }
 }
