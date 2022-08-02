@@ -4,6 +4,10 @@ main {
   margin: 0 2rem;
 }
 
+.contact__text {
+  height: 7.5rem;
+}
+
 .text {
   font-size: 1rem;
   line-height: 1.25rem;
@@ -16,4 +20,65 @@ main {
   height: 60px;
   left: 67px;
   top: 168px;
+}
+
+.form__contact {
+  position: absolute;
+  width: 19.5rem;
+  height: 39.75rem;
+  left: 1.5rem;
+  top: 15.75rem;
+
+  background-color: var(--cinza-claro);
+}
+
+.label__contact {
+  display: flex;
+  align-items: flex-start;
+
+  font-family: var(--fonte-principal);
+  color: var(--azul);
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 1.5rem;
+
+  margin: .5rem 1rem .5rem;
+}
+
+.input__contact,
+.message__contact {
+  display: flex;
+  align-items: flex-start;
+  margin: .5rem 1rem .5rem;
+}
+
+.input__contact::placeholder,
+.message__contact::placeholder {
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+  padding-left: .5rem;
+  color: var(--cinza-medio);
+}
+
+.input__contact {
+  width: 17.5rem;
+  height: 3rem;
+  left: 3rem;
+  top: 19.75rem;
+
+  border: none;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 6px;
+}
+
+.message__contact {
+  width: 17.5rem;
+  height: 10.75rem;
+  left: 2.5rem;
+  top: 38.25rem;
+
+  border: none;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 6px;
 }
