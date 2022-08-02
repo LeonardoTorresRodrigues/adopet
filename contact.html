@@ -25,10 +25,33 @@
   </header>
 
   <main>
-    <p class="text">Envie uma mensagem para a pessoa ou instituição que está cuidado do animal:</p>
+    <section class="contact__text">
+      <p class="text">Envie uma mensagem para a pessoa ou instituição que está cuidado do animal:</p>
+    </section>
 
-    <form action=""></form>
+    <form class="form__contact">
+
+      <label class="label__contact" for="name">Nome</label>
+      <input class="input__contact" type="text" name="name" id="name" placeholder="Insira seu nome completo" required>
+
+      <label class="label__contact" for="tel">Telefone</label>
+      <input class="input__contact" type="tel" name="tel" id="tel" placeholder="Insira seu telefone e/ou whatsapp"
+        required>
+
+      <label class="label__contact" for="pet__name">Nome do animal</label>
+      <input class="input__contact" type="text" name="pet__name" id="pet__name"
+        placeholder="Por qual animal você se interessou?" required>
+
+      <label class="label__contact" for="message">Mensagem</label>
+      <textarea class="message__contact" name="message" id="message" placeholder="Escreva sua mensagem."></textarea>
+      
+      <input type="submit" value="Enviar">
+    </form>
   </main>
+
+  <footer>
+    <p>2022 - Desenvolvido por Leonardo Torres Rodrigues</p>
+  </footer>
 </body>
 
 </html>
