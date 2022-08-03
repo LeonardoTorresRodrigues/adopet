@@ -110,9 +110,9 @@ footer {
 
 @media screen and (min-width: 768px) {
   body {
-    background-image: url("../svg/forma_1_768px.svg"), url("../svg/forma_2_768px.svg"), url("../svg/ilustração_768px.svg"), url("../svg/Usuário.svg");
+    background-image: url("../svg/forma_1_768px.svg"), url("../svg/forma_2_768px.svg"), url("../svg/Usuário.svg");
     background-repeat: no-repeat;
-    background-position: top left, center right, bottom 4rem center, top 1.5rem right 1rem;
+    background-position: top left, center right, top 1.5rem right 1rem;
   }
 
   .text {
@@ -122,20 +122,17 @@ footer {
     left: 7.625rem;
     top: 17.8125rem;
 
-    font-family: 'Poppins';
+    font-family: var(--fonte-principal);
     font-style: normal;
     font-weight: 400;
     font-size: 1.125rem;
     line-height: 1.625rem;
-    /* or 144% */
 
     display: flex;
     align-items: center;
     text-align: center;
 
-    /* Azul */
-
-    color: #3772FF;
+    color: var(--azul);
   }
 
   .form__contact {
@@ -148,12 +145,60 @@ footer {
 
   .input__contact,
   .message__contact {
-    width: 492px;
+    width: 30.75rem;
   }
 
   footer {
-    width: 768px;
-    height: 104px;
-    top: 1096px;
+    width: 48rem;
+    height: 6.5rem;
+    top: 68.5rem;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  header {
+    width: 69.25rem;
+    height: 3.5rem;
+    left: 10rem;
+    top: 3.3125rem;
+
+    justify-content: flex-start;
+    margin: 3rem auto 0;
+  }
+
+  .logo {
+    margin-right: 3rem;
+  }
+
+  .icons {
+    margin-left: .5rem;
+  }
+
+  .text {
+    width: 30.75rem;
+    height: 3.25rem;
+    left: 29.625rem;
+    top: 12.25rem;
+
+    font-family: var(--fonte-principal);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.125rem;
+    line-height: 1.625rem;
+  }
+
+  .form__contact {
+    width: 34.5rem;
+    height: 38.9375rem;
+    left: 27.75rem;
+    top: 17.8125rem;
+
+  }
+
+  footer {
+    width: 90rem;
+    height: 5rem;
+    left: 0;
+    top: 59rem;
   }
 }
