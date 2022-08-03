@@ -1,0 +1,21 @@
+body {
+  font-family: var(--fonte-principal);
+  min-height: 100vh;
+  min-width: 100vw;
+  background-image: url("../svg/Forma\ 1.svg");
+  background-repeat: no-repeat;
+  background-position: top left;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  justify-content: flex-start;
+}
+
+.profile__icon {
+  width: 2.5rem;
+  height: 2.5rem;
+
+  margin-left: 7rem;
+}
