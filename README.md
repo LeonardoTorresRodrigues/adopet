@@ -1,6 +1,6 @@
 # Adopet
 
-Rápida descrição do objetivo de fazer esse projeto
+Página de adoção de pets.
 
 | :placard: Vitrine.Dev |     |
 | -------------  | --- |
