@@ -21,4 +21,3 @@ Nada melhor do que ser desafiado. Essa é a proposta do Alura Challenge. Nessa 4
 * Mobile-first
 * Flexbox
 * Grid
-* Código legível
